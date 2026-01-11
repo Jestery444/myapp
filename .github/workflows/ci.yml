@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]   # или main, если твоя ветка называется main
+    branches: [ master ]   # или main, если твоя ветка называется main
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
