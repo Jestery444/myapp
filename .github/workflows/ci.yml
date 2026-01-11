@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ]   # или main, если твоя ветка называется main
   pull_request:
     branches: [ main ]
 
@@ -15,4 +15,3 @@ jobs:
 
       - name: Say hello
         run: echo "Hello, GitHub Actions!"
-
